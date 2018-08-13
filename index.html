@@ -9,6 +9,7 @@
       margin: 0 auto;
       padding: 0;
       text-align: center;
+      box-sizing: border-box;
     }
 
     a {
@@ -18,21 +19,29 @@
       text-decoration: none;
     }
     .container {
-      width: auto;
-      padding: 8vh 10vw;
+      padding: 2vh;
     }
-    .title {
-      padding-top:2vh;
+
+    .page-box {
+      margin: 2vh auto;
+    }
+
+    @media only screen and (max-height: 800px) {
+      body {
+        font-size: small;
+      }
     }
 
   </style>
 </head>
 <body>
+  <div class="page-box">
+
   <div class="title">
     <p>
       <code>hnryjm.es</code>
     </p>
-    
+
   </div>
 
   <div class="container">
@@ -49,10 +58,12 @@
     <p>This was a React tutorial project made using <code>create-react-app</code>.</p></a>
     <br/>
   </div>
-  <p> 
+  <p>
       <a href="https://github.com/hnryjmes/">
         <code>github.com/hnryjmes</code>
       </a>
     </p>
+  </div>
+
 </body>
 </html>
