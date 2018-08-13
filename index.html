@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
   <style>
     body {
-      font-family: sans-serif;
+      font-family: "Lato", sans-serif;
       margin: 0 auto;
       padding: 0;
       text-align: center;
-      font-size: x-large;
     }
-    h1 {
+
+    a {
+      color: black;
+    }
+    a {
+      text-decoration: none;
+    }
+    .container {
       margin-top: 10vh;
+      width: auto;
+      padding: 0 20vw;
+
     }
+    .title {
+      padding-top:2vh;
+    }
+
   </style>
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <p>I'm hosted with GitHub Pages.</p>
-  <p>This is a test.</p>
-  <p><a href="/tic-tac-toe/">Tic Tac Toe (create-react-app)</a></p>
-  <p><a href="/random-quote-machine/">Random Quote Machine v1 (freeCodeCamp)</a></p>
-  <p><a href="https://hnryjmes-demo-blog.herokuapp.com/">A Blog with Comments (web-crunch)</a></p>
+  <div class="title"><p><code>hnryjm.es</code></p><p><code>hnryjmes.github.io</code></p></div>
+
+  <div class="container">
+    <a href="/tic-tac-toe/"><h2>Tic Tac Toe</h2>
+    <p>This was a React tutorial project made using <code>create-react-app</code>.</p></a>
+    <br/>
+    <a href="/random-quote-machine/"><h2>Random Quote Machine</h2>
+    <p>This was a React project for freeCodeCamp.</p></a>
+    <br/>
+    <a href="https://hnryjmes-demo-blog.herokuapp.com/"><h2>A Blog with Comments</h2>
+    <p>This was a Ruby on Rails project made following a web-crunch.com tutorial.</p></a>
+    <br/>
+    <a href="https://hnryjmes-book-review.herokuapp.com/"><h2>Book Review </h2>
+    <p>This was also a Ruby on Rails project made following a web-crunch.com tutorial.</p></a>
+  </div>
+
 </body>
 </html>
