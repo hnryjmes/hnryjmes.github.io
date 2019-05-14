@@ -1,77 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>hnryjm.es</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-  <style>
-    body {
-      font-family: "Lato", sans-serif;
-      margin: 0 auto;
-      padding: 0;
-      text-align: center;
-      box-sizing: border-box;
-    }
-
-    a {
-      color: black;
-    }
-    a {
-      text-decoration: none;
-    }
-    .container {
-      padding: 2vh;
-    }
-
-    .page-box {
-      margin: 2vh auto;
-    }
-
-    @media only screen and (max-height: 1000px) {
+  <head>
+    <title>hnryjm.es - a statistics blog</title>
+    <style>
       body {
-        font-size: small;
+        font-family: sans-serif;
+        font-size: 1.5vw;
+        margin: 0 auto;
+        max-width: 60vw;
+        padding: 5vw;
+        text-align: center;
       }
-    }
 
-  </style>
-</head>
-<body>
-  <div class="page-box">
+      section {
+        box-sizing: border-box;
+        border-top: 1px solid silver;
+        border-left: 1px solid silver;
+        border-right: 1px solid silver;
+        padding: 1em 0;
+      }
 
-  <div class="title">
-    <p>
-      <a href="http://hnryjm.es"><code>hnryjm.es</code></a>
-    </p>
+      section:last-child {
+        border-bottom: 1px solid silver;
+      }
 
-  </div>
+      h1 {
+        font-size: 2.5vw;
+        font-weight: normal;
+      }
 
-  <div class="container">
-    <a href="http://hnryjmes-maps-app.surge.sh"><h2>Maps App</h2>
-    <p>This was a React project using the Google Maps and FourSquare APIs made following a tutorial by elharony on YouTube.</p></a>
-    <br/>
-    <a href="/cellular-automaton/"><h2>Cellular Automaton</h2>
-    <p>This was a React project made following a Beau Carnes tutorial on YouTube.</p></a>
-    <br/>
-    <a href="https://hnryjmes-book-review.herokuapp.com/"><h2>Book Review </h2>
-    <p>This was a Ruby on Rails project made following a Ryan Hemrick tutorial on YouTube.</p></a>
-    <br/>
-    <a href="https://hnryjmes-demo-blog.herokuapp.com/"><h2>A Blog with Comments</h2>
-    <p>This was a Ruby on Rails project made following a web-crunch.com tutorial.</p></a>
-    <br/>
-    <a href="/random-quote-machine/"><h2>Random Quote Machine</h2>
-    <p>This was a React project for freeCodeCamp.</p></a>
-    <br/>
-    <a href="/tic-tac-toe/"><h2>Tic Tac Toe</h2>
-    <p>This was a React tutorial project made using <code>create-react-app</code>.</p></a>
-    <br/>
-  </div>
-  <p>
-      <a href="https://github.com/hnryjmes/">
-        <code>github.com/hnryjmes</code>
-      </a>
-    </p>
-  </div>
+      a {
+        color: black;
+        font-family: monospace;
+        text-decoration: none;
+      }
 
-</body>
+      ul {
+        list-style-type: inside;
+      }
+
+      p.no-margin {
+        margin: 0;
+      }
+    </style>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <a href="http://hnryjm.es">hnryjm.es - a statistics blog</a>
+      </section>
+      <section>
+        <h3>my first post</h3>
+        <p>
+          Hey there! I'm interested in lots of things. However, right now I'm currently teaching myself basic mathematics through
+          textbooks. At the moment my goal is to eventually get an MSc in something relating to Statistics, and a PhD in something relating to Social Science, Data Science or Machine Learning. You can track my progress by watching my
+          <a href="https://www.goodreads.com/user/show/72204726-henry-cooksley"
+            >Goodreads</a
+          >
+          page if you want.
+        </p>
+        <p>Here are some of the topics I hope to (briefly) cover:</p>
+        <p class="no-margin">(1)</p>
+        <p class="no-margin">Mathematical Methods</p>
+        <p class="no-margin">Discrete Mathematics & Mathematical Reasoning</p>
+        <p class="no-margin">Mathematical Foundations of Neuroscience</p>
+        <p></p>
+        <p class="no-margin">(2)</p>
+        <p class="no-margin">Proofs</p>
+        <p class="no-margin">Calculus</p>
+        <p class="no-margin">Linear Algebra</p>
+        <p></p>
+        <p class="no-margin">(3)</p>
+        <p class="no-margin">Multivariable Calculus</p>
+        <p class="no-margin">Set Theory</p>
+        <p class="no-margin">Calculus & Analysis</p>
+        <p class="no-margin">Linear Algebra & Applications</p>
+        <p></p>
+        <p class="no-margin">(4)</p>
+        <p class="no-margin">Probability</p>
+        <p class="no-margin">Statistics</p>
+        <p class="no-margin">Advanced Probability</p>
+        <p>
+          If I get through all of that, and I still like maths, then I think
+          I'll be ready for (5) i.e. applied statistical methods using e.g. R, statistical learning etc. then after that I can finally (6) apply for a statistics course!
+        </p>
+        <p class="no-margin"><em>Henry Cooksley</em></p>
+        <p class="no-margin"><em>May 2019</em></p>
+      </section>
+      <section>
+        <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">
+          $$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
+        </a>
+      </section>
+      <section>
+        <a href="https://github.com/hnryjmes/hnryjmes.github.io">
+          github.com/hnryjmes/hnryjmes.github.io
+        </a>
+      </section>
+    </main>
+  </body>
 </html>
