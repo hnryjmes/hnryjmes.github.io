@@ -1,1 +1,1 @@
-http://hnryjm.es/ - a statistics blog
+[hnryjm.es - a statistics blog!](http://hnryjm.es/)
